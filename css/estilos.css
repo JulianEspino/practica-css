@@ -1,0 +1,28 @@
+header{
+    width: 100%;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #4040a1;
+}
+
+nav ul li:hover {
+    background-color: purple;
+  }
+
+ 
